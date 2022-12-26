@@ -59,8 +59,8 @@ li {
 
 li::before {
   content: '';
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   background: #61DAFB;
   color: #61DAFB;
   border-radius: 50%;
@@ -83,8 +83,9 @@ li::before {
 
 .main-content .watermark {
   position: absolute;
-  top: 4.5rem;
-  right: -4.5rem;
+  top: 50%;
+  right: -50%;
+  translate: -50% -50%;
   z-index: 1;
 }
 
@@ -120,5 +121,13 @@ li::before {
     height: 350px;
     width: 300px;
     padding: 0 0.5rem;
+  }
+  
+  .main-content .watermark {
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    translate: -10% -50%;
+    z-index: 1;
   }
 }
