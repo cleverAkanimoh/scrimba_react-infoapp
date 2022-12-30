@@ -1,22 +1,5 @@
-# webpack react demo
+#React Info App
 
-## 安装
-```
-yarn --development 
++ Static react app
 
-// or
-
-npm install --development 
-```
-
-## 测试
-
-```
-npm start
-```
-
-## 构建
-
-```
-npm run build
-```
++ see project in action - https://glowing-mandazi-f71ca4.netlify.app/
